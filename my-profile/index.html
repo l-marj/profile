@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marjo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="webicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" 
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <h1> <a class="name" id="name" href="#">Marjorie Lanis</a></h1>
+        
+        <button class="hamburger" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        
+        <nav class="navbar">
+            <ul id="navMenu">
+                <li><a href="#name">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#quests">Quests</a></li>
+                <li>
+                    <a href="https://github.com/ohmarz" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/marjorie-lanis-137b7b445?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>        
+    </header>
+
+    <main class="body">
+        
+        <section class="section home-section">
+            <div class="hero-container">
+                <div id="mypic">
+                    <img src="mypixel.png" alt="My Pixel Image">
+                </div>
+                <div class="welcome">
+                    <h4 id="Hello">Hi, call me <span id="marj">marjo</span>.</h4>
+                    <p>I'm a Computer Science student. I do my studies on weekdays, and try to build
+                    small projects during weekends. Occasionally both may or may not happen depending on my mood.</p>
+                </div>
+            </div>
+        </section>
+
+     
+        <section class="section about-section" id="About">
+            <div class="me">
+                <h4>About</h4>
+                <p>I am currently studying at the China Three Gorges University - <a class="uni" href="https://www.ctgu.edu.cn/">三峡大学.</a> 
+                <br>
+                My goal in my studies is to become better in Software Development and Data Science.<br>
+                I use my free time to self-learn web development and create small programming projects for fun.
+                </p>
+            </div>
+        </section>
+        
+        <section class="section quests-section" id="quests">
+            <div id="hobby">
+                <h4>Mini Projects</h4>
+                <p id="one"><br>(To be updated).</p>
+               <!-- <p id="two">By the way, I stress alot because
+                of the deadlines I give myself.</p>-->
+            </div>
+        </section>
+    </main>  
+    
+    <footer>
+        <p>Marj<br>
+        All rights reserved.&copy;</p>     
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const navMenu = document.getElementById("navMenu");
+        menuBtn.addEventListener("click", () => {
+            navMenu.classList.toggle("open");
+        });
+    </script>
+</body>
+</html>
