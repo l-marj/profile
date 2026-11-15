@@ -1,5 +1,5 @@
 # Profile 
-https://l-marj.github.io/profile/
+https://l-marj.github.io/profile/my-profile
 ## Built With
 - HTML
 - CSS
