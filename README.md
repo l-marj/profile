@@ -3,4 +3,4 @@ https://l-marj.github.io/profile/my-profile
 ## Built With
 - HTML
 - CSS
-## '[my-profile]/' - contains all theh files for the webpage.d
+## '[my-profile]/' - contains all the files for the webpage.
